@@ -1,12 +1,8 @@
 name = "firefly"
 compatibility_date = "2025-06-02"
 
-[
-assets
-]
+[assets]
 directory = "./dist"
 
-[
-vars
-]
+[vars]
 NODE_VERSION = "22"
