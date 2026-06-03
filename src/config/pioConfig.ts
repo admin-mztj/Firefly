@@ -3,7 +3,7 @@ import type { Live2DWidgetConfig, SpineModelConfig } from "../types/config";
 // Spine 看板娘配置
 export const spineModelConfig: SpineModelConfig = {
 	// Spine 看板娘开关
-	enable: false,
+	enable: true,
 
 	// Spine模型配置
 	model: {
@@ -20,7 +20,7 @@ export const spineModelConfig: SpineModelConfig = {
 	// 位置配置
 	position: {
 		// 显示位置 bottom-left，bottom-right，top-left，top-right，注意：在右下角可能会挡住返回顶部按钮
-		corner: "bottom-left",
+		corner: "top-left",
 		// 距离边缘0px
 		offsetX: 0,
 		// 距离下边缘0px
